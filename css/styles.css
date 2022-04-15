@@ -24,6 +24,8 @@
     overflow: hidden;
 }
 
+/* --------------------HEADER---------------------- */
+
 .header-logo {
     font-family: 'Raleway';
     font-weight: 700;
@@ -40,6 +42,7 @@
     letter-spacing: 0.02em;
     color: #212121;
 }
+
 .header-menu .link.current {
     color: #2196F3;
 }
@@ -79,6 +82,8 @@
     color: black;
 }
 
+/* --------------------HERO---------------------- */
+
 .hero{
     background-color: #2F303A;
 }
@@ -107,6 +112,8 @@
     cursor: pointer;
 }
 
+/* --------------------BENEFITS---------------------- */
+
 .benefits-title{
     font-size: 14px;
     line-height: 1.14;
@@ -114,13 +121,15 @@
     text-transform: uppercase;
 
 }
+
 .benefits-item{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
-
 }
+
+/* --------------------SPECIALIZATION---------------------- */
 
 .specialization-title{
 font-size: 36px;
@@ -130,10 +139,13 @@ letter-spacing: 0.03em;
 color: #212121;
 }
 
+/* --------------------TEAM---------------------- */
+
 .team{
     background-color: #F5F4FA;
 
 }
+
 .team-title{
     font-size: 36px;
     line-height: 1.17;
@@ -149,21 +161,22 @@ color: #212121;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-
 }
+
 .team-title-list-item-item{
     font-size: 16px;
     line-height: 1.88;
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
-
 }
+
+/* --------------------FOOTER---------------------- */
 
 .footer{
     background-color: #2F303A;
-
 }
+
 .footer-logo{
     font-family: 'Raleway';
     font-weight: 700;
@@ -171,8 +184,8 @@ color: #212121;
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: #2196F3;
-
 }
+
 .footer-logo-white{
 color: #FFFFFF;
 }
@@ -184,6 +197,7 @@ color: #FFFFFF;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 } 
+
 .footer-adress-list-adress :hover,
 .footer-adress-list-adress :focus {
     color: #2196F3;
@@ -195,7 +209,6 @@ color: #FFFFFF;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-
 }
 
 .footer-adress-list-mail :hover,
@@ -215,6 +228,12 @@ color: #FFFFFF;
 .footer-adress-list-tel :focus {
     color: #2196F3;
 }
+
+
+
+/* --------------------PORTFOLIO-PAGE---------------------- */
+
+
 
 .portfolio-btn {
     font-family:inherit; 
@@ -237,12 +256,11 @@ color: #FFFFFF;
     line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
-
 }
+
 .portfolio-item-text{
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: #757575;
-
 }
