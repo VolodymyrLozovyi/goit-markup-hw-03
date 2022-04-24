@@ -73,7 +73,7 @@ li {
 .header {
     padding-top: 24px;
     padding-bottom: 25px;
-    
+    border: 1px solid #ECECEC;       
 }
 
 .header .container {
@@ -406,12 +406,21 @@ color: #FFFFFF;
 .portfolio-items {
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .portfolio-list {
     margin-right: 30px;
     margin-bottom: 30px;
     max-width: 370px;
+}
+
+.portfolio-descr {
+    padding-left: 24px;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;;
+
 }
 
 .portfolio-list:nth-child(3n) {
@@ -423,7 +432,6 @@ color: #FFFFFF;
 }
 
 .portfolio-img {
-    margin-bottom: 20px;
 }
 
 .portfolio-item-title{
@@ -432,6 +440,8 @@ color: #FFFFFF;
     letter-spacing: 0.06em;
     color: #212121;
     margin-bottom: 4px;
+    padding-top: 20px;
+
 }
 
 .portfolio-item-text{
@@ -441,3 +451,4 @@ color: #FFFFFF;
     color: #757575;
     margin-bottom: 20px;
 }
+
