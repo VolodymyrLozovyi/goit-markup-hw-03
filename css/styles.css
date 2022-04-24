@@ -273,6 +273,7 @@ padding-bottom: 50px;
 .team-list {
     margin-right: 30px;
     max-width: 270px;
+    background: #FFFFFF;
     display: inline-block;
     flex-wrap: wrap;
 }
