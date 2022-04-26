@@ -58,7 +58,6 @@ li {
 
 .container {
     width: 1200px;
-    box-sizing: content-box;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -135,13 +134,17 @@ li {
     margin-left: auto;
 }
 
+.header-contact li:not(:last-child) {
+    margin-right: 50px;
+}
+
 .header-contact-mail .link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
-    margin-right: 50px;
+    /* margin-right: 50px; */
 }
 
 .header-contact-mail :hover,
@@ -165,7 +168,9 @@ li {
 /* --------------------HERO---------------------- */
 
 .hero{
-    background-color: #2F303A;    
+    background-color: #2F303A; 
+    padding-top: 200px;   
+    padding-bottom: 200px;
 }
 .hero .container {
     text-align: center;
@@ -180,7 +185,6 @@ li {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-top: 200px;
     margin-bottom: 30px;
 }
 
@@ -195,15 +199,16 @@ li {
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background-color: #2196F3;
-    cursor: pointer;
-    margin-bottom: 200px;   
+    cursor: pointer;  
 }
 
 /* --------------------BENEFITS---------------------- */
 .benefits {
     padding: 94px 0 0;
+}
+
+.benefits-lists {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .benefits-list {
@@ -234,14 +239,18 @@ li {
 }
 
 /* --------------------SPECIALIZATION---------------------- */
+.specialization-items {
+    display: flex;
+}
+
 
 .specialization-list {
-    padding-right: 30px;
-    display: inline-flex;
+    margin-right: 30px;
+
 }
 
 .specialization-list:last-child {
-    padding-right: 0px;
+    margin-right: 0px;
 }
 
 .specialization-title{
@@ -250,14 +259,13 @@ line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
-padding-bottom: 50px;
+margin-bottom: 50px;
 }
 
 /* --------------------TEAM---------------------- */
 
 .team {
     background-color: #F5F4FA;
-    display: flex;  
 }
 
 
@@ -267,19 +275,26 @@ padding-bottom: 50px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.team-items {
+    display: flex;
 }
 
 .team-list {
     margin-right: 30px;
     max-width: 270px;
     background: #FFFFFF;
-    display: inline-block;
-    flex-wrap: wrap;
 }
 
 .team-list:last-child {
     margin-right: 0px;
+}
+
+.team-descr {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .team-title-list-item-head{
@@ -289,8 +304,7 @@ padding-bottom: 50px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .team-title-list-item-item{
@@ -317,14 +331,16 @@ padding-bottom: 50px;
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: #2196F3;
+    display: block;
+    margin-bottom: 20px;
 }
 
 .footer-logo-white{
 color: #FFFFFF;
 }
 
-.footer-address {
-    margin-top: 20px;
+.footer-address li:not(:last-child) {
+    margin-bottom: 9px;
 }
 
 .footer-adress-list-adress  .link{
@@ -333,7 +349,8 @@ color: #FFFFFF;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-    margin-bottom: 9px;
+    
+    
 } 
 
 .footer-adress-list-adress :hover,
@@ -372,18 +389,17 @@ color: #FFFFFF;
 /* --------------------PORTFOLIO-PAGE---------------------- */
 
 .portfolio-buttons {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
 .portfolio-button {
-    padding-right: 8px;
+    margin-right: 8px;
 }
 
 .portfolio-button:last-child {
-    padding-right: 0px;
+    margin-right: 0px;
 }
 
 .portfolio-btn {
@@ -396,7 +412,6 @@ color: #FFFFFF;
     background-color: #F5F4FA;
     color: #212121;
     padding: 6px 22px;
-
 }
 
 .portfolio-btn:hover,
@@ -407,7 +422,6 @@ color: #FFFFFF;
 .portfolio-items {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .portfolio-list {
@@ -418,10 +432,12 @@ color: #FFFFFF;
 
 .portfolio-descr {
     padding-left: 24px;
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+    padding-right: 24px ;
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;;
-
 }
 
 .portfolio-list:nth-child(3n) {
@@ -438,8 +454,6 @@ color: #FFFFFF;
     letter-spacing: 0.06em;
     color: #212121;
     margin-bottom: 4px;
-    padding-top: 20px;
-
 }
 
 .portfolio-item-text{
@@ -447,6 +461,5 @@ color: #FFFFFF;
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: #757575;
-    margin-bottom: 20px;
 }
 
