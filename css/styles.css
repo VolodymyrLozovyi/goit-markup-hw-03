@@ -313,7 +313,6 @@ margin-bottom: 50px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
-    padding-bottom: 30px;
 }
 
 /* --------------------FOOTER---------------------- */
@@ -412,11 +411,14 @@ color: #FFFFFF;
     background-color: #F5F4FA;
     color: #212121;
     padding: 6px 22px;
+    border: none;
+    border-radius: 4px;
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
     background-color: #2196F3;
+    color: #F5F4FA;
 }
 
 .portfolio-items {
